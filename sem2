@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Простая ссылка</h2>
+<p><a href="адрес ссылки">текст ссылки</a></p>
+<br><a href="https://github.com/annengineer?tab=repositories">Рабочая платформа на Github.com</a></br>
+<br><h2>Открытие странички</h2>
+Открыть ссылку https://www.hse.ru/
+<br><a href="https://www.hse.ru/" target="_blank">Открыть ссылку https://www.hse.ru в новом окне_blank</a></br>
+Открыть ссылку в текущем окне
+<br><a href="https://www.hse.ru/" target="_self">В текущем окне_self</a></br>
+<br><a onclick="window.open('https://www.hse.ru/','_blank');" style="cursor: pointer">Открыть ссылку через javascript</a></br>
+<h2>Применяем к ссылке атрибут title</h2>
+<br><a href="https://www.hse.ru/" target="_blank">Открыть ссылку https://www.hse.ru в новом окне_blank</a></br>
+
+<h2>URL - адреса и пути к файлам </h2>
+Корень структуры 2023_BoWT
+Тот же каталог Venv
+<br><a href="typography.html""target="_blank"> путь к файлу typography.html</a></br>
+Перемещение вниз в подкаталоги
+<br><a href="images/image1.html" "target="_blank">подкаталог image1.html</a></br>
+Перемещение в родительские каталоги ../
+
+<p>Тип ссылки html</p>
+sem2Osipova.html
+<br><a href="sem2Osipova.htm">текст ссылки</a></br>
+
+</body>
+</html>
